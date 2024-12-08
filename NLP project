@@ -23,7 +23,7 @@ def scroll(height):
 
 # Inisialisasi WebDriver
 option = webdriver.ChromeOptions()
-servicePath = Service('D:/new life/pythonProject/test/direct1/packageUtama/tkinter/chromedriver.exe')
+servicePath = Service('D:/pythonProject/test/direct1/packageUtama/tkinter/chromedriver.exe')
 driver = webdriver.Chrome(service=servicePath, options=option)
 
 # Masuk ke halaman dan mencari produk
