@@ -33,7 +33,7 @@ time.sleep(3)
 searchbar = driver.find_element(By.CLASS_NAME, "css-3017qm")
 searchbar.send_keys("Mystery Box", Keys.ENTER)
 time.sleep(5)
-scroll(1000)
+scroll(600)
 
 product = driver.find_element(By.XPATH,
                               "//span[text()='Mistery Box Dapat hp - unboxing misteri box misterius / misteri dapat']")
